@@ -50,6 +50,5 @@
     </array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<true/>
 </dict>
 </plist>
