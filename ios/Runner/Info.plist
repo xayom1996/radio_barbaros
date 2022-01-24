@@ -45,10 +45,11 @@
     <key>UIRequiresFullScreen</key>
     <true/>
     <key>UIBackgroundModes</key>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
     <array>
         <string>audio</string>
     </array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<key>UIViewControllerBasedStatusBarAppearance</key>
 </dict>
 </plist>
