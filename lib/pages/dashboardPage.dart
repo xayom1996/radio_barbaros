@@ -18,14 +18,12 @@ class DashboardPage extends StatelessWidget {
 
     return Scaffold(
       key: _scaffoldKey,
-      body: SafeArea(
-          child: Obx(() =>
-              IndexedStack(
-                key: PageStorageKey('Indexed'),
-                index: dashboardController.tabIndex.value,
-                children: dashboardController.pages,
-              ),
-          )
+      body: Obx(() =>
+          IndexedStack(
+            key: PageStorageKey('Indexed'),
+            index: dashboardController.tabIndex.value,
+            children: dashboardController.pages,
+          ),
       ),
       bottomNavigationBar: MyNavBar(
           icons: [

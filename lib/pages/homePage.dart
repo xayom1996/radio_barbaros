@@ -46,8 +46,6 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 32.sp),
             child: Obx(() {
-              print('https://c26.radioboss.fm/w/artwork/309.png?${homeController
-                  .ts.value.toString()}');
               return Image(
                   // fit: BoxFit.fitWidth,
                   height: 0.35.sh,
@@ -58,6 +56,7 @@ class HomePage extends StatelessWidget {
                     return SvgPicture.asset(
                       'assets/no-cover-wh.svg',
                       fit: BoxFit.fitWidth,
+                      height: 0.35.sh,
                       alignment: FractionalOffset.topCenter,
                     );
                   },
